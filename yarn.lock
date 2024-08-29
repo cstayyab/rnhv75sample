@@ -7840,6 +7840,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-hole-view@npm:^3.0.0-alpha4":
+  version: 3.0.0-alpha4
+  resolution: "react-native-hole-view@npm:3.0.0-alpha4"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: e1c76daf1b1e7a6302bb718bf224804ef193f94124c2278feccd546311571e50adb46ae318fcc664079c2d0e88bcec4d54ee2c1f72fad31d0b1a3aebd6ed97d3
+  languageName: node
+  linkType: hard
+
 "react-native@npm:0.75.2":
   version: 0.75.2
   resolution: "react-native@npm:0.75.2"
@@ -8239,6 +8249,7 @@ __metadata:
     prettier: 2.8.8
     react: 18.3.1
     react-native: 0.75.2
+    react-native-hole-view: ^3.0.0-alpha4
     react-test-renderer: 18.3.1
     typescript: 5.0.4
   languageName: unknown

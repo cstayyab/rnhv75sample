@@ -16,6 +16,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import { RNHoleView } from 'react-native-hole-view';
 
 import {
   Colors,
@@ -91,6 +92,25 @@ function App(): React.JSX.Element {
           </Section>
           <LearnMoreLinks />
         </View>
+     <RNHoleView
+      style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'rgba(255, 255, 255, 0.9)',
+      }}
+      holes={[
+        {
+          borderRadius: 12,
+          x: 100,
+          y: 100,
+          width: 100, 
+          height: 100,
+        },
+      ]}>
+      </RNHoleView> 
       </ScrollView>
     </SafeAreaView>
   );
